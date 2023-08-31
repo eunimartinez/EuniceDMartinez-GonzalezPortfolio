@@ -1,0 +1,66 @@
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+  padding : 0px 20px;
+  font-size: 24px;
+  box-shadow: 0 5px 10px rgba(165, 165, 165, 0.791);
+  background-color: rgb(207, 151, 238);
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+ 
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  background-color: rgb(209, 208, 208);
+margin:0;
+padding: 15px 0
+}
+
+.footerLinks a{
+  color: black
+}
+
+h1 {
+  text-align: center;
+}
+
+.active {
+  color: blue !important;
+}
+.link {
+  text-decoration: none;
+  color: black
+}
+
+.project-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 0 5vw ;
+}
+
+.Project {
+  width: 300px;
+  height: 200px;
+}
+
+.Aboutme-container {
+  padding:  0 20% 
+}
