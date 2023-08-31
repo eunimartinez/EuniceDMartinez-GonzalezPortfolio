@@ -12,8 +12,8 @@ function Navbar({ router }) {
         <ul className="links">
           <li>
             <p
-              class={`link ${router === "/aboutme" ? "active" : ""}`}
-              onClick={() => window.location.replace("/aboutme")}
+              class={`link ${router === "/" ? "active" : ""}`}
+              onClick={() => window.location.replace("/")}
             >
               About me
             </p>

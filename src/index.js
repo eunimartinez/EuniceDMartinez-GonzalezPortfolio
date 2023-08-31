@@ -10,7 +10,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 const router = createBrowserRouter([
   {
-    path: "/aboutme",
+    path: "/",
     element: <AboutMe/>,
   },
   {
